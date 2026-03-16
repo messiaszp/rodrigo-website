@@ -1,0 +1,38 @@
+{
+  "header": {
+    "title": "RODRIGO JR",
+    "subtitle1": "Fotografia Profissional",
+    "subtitle2": "Esportes • Eventos • Retratos"
+  },
+  "about": {
+    "title": "Sobre",
+    "text": "Sou um fotógrafo iniciante movido pela paixão de registrar momentos e transformar cenas simples em memórias marcantes. Minha jornada na fotografia começou com a curiosidade de observar detalhes do cotidiano e evoluiu para um compromisso constante com aprendizado, criatividade e aprimoramento técnico.\n\nBusco capturar imagens autênticas que transmitam emoção e contem histórias, valorizando cada momento registrado. Mesmo no início da minha trajetória profissional, trabalho com dedicação e responsabilidade para entregar resultados que representem a essência de cada cliente e ocasião."
+  },
+  "portfolio": {
+    "title": "Portfólio",
+    "photos": [
+      "cr7siu.jpg",
+      "foto2.jpg",
+      "foto3.jpg",
+      "foto4.jpg",
+      "foto5.jpg",
+      "foto6.jpg",
+      "foto7.jpg",
+      "foto8.jpg"
+    ]
+  },
+  "services": [
+    {"title": "Eventos", "text": "Fotografia profissional para eventos sociais e corporativos."},
+    {"title": "Esportes", "text": "Fotografia de alta velocidade para esportes e competições."},
+    {"title": "Retratos", "text": "Ensaios individuais e profissionais."}
+  ],
+  "contact": {
+    "title": "Contato",
+    "email": "seuemail@email.com",
+    "instagram": "@seuinstagram",
+    "whatsapp": "(xx) xxxxx‑xxxx"
+  },
+  "footer": {
+    "text": "© 2026 Rodrigo Jr Photography"
+  }
+}
