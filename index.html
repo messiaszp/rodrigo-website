@@ -177,6 +177,7 @@ fetch('content/home.json')
     // Portfolio
     document.getElementById('portfolio-title').textContent = data.portfolio.title;
     const gallery = document.querySelector('.gallery');
+    if(gallery){
     gallery.innerHTML = '';
     data.portfolio.photos.forEach(photo => {
       const div = document.createElement('div');
@@ -184,7 +185,7 @@ fetch('content/home.json')
       div.innerHTML = `<img src="images/${photo}" alt="Foto">`;
       gallery.appendChild(div);
     });
-
+    }
     // Services
     document.getElementById('services-title').textContent = data.services_title;
     const serviceCards = document.querySelectorAll('.services .card');
