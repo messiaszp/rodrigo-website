@@ -217,4 +217,45 @@ Busco capturar imagens autênticas que transmitam emoção e contem histórias, 
 </footer>
 
 </body>
+  <script>
+fetch('content/home.json')
+  .then(r => r.json())
+  .then(data => {
+    // Header
+    document.querySelector('header h1').textContent = data.header.title;
+    document.querySelector('header p:nth-of-type(1)').textContent = data.header.subtitle1;
+    document.querySelector('header p:nth-of-type(2)').textContent = data.header.subtitle2;
+
+    // Sobre
+    document.querySelector('#about h2').textContent = data.about.title;
+    document.querySelector('#about p').textContent = data.about.text;
+
+    // Portfólio
+    const gallery = document.querySelector('.gallery');
+    gallery.innerHTML = '';
+    data.portfolio.photos.forEach(photo => {
+      const div = document.createElement('div');
+      div.className = 'photo';
+      div.innerHTML = `<img src="images/${photo}" alt="Foto">`;
+      gallery.appendChild(div);
+    });
+
+    // Serviços
+    const serviceCards = document.querySelectorAll('.services .card');
+    data.services.forEach((service, i) => {
+      serviceCards[i].querySelector('h3').textContent = service.title;
+      serviceCards[i].querySelector('p').textContent = service.text;
+    });
+
+    // Contato
+    document.querySelector('#contact h2').textContent = data.contact.title;
+    const contactPs = document.querySelectorAll('#contact p');
+    contactPs[0].textContent = 'Email: ' + data.contact.email;
+    contactPs[1].textContent = 'Instagram: ' + data.contact.instagram;
+    contactPs[2].textContent = 'WhatsApp: ' + data.contact.whatsapp;
+
+    // Rodapé
+    document.querySelector('footer p').textContent = data.footer.text;
+  });
+</script>
 </html>
