@@ -6,12 +6,26 @@ media_folder: "images/uploads"
 public_folder: "/images/uploads"
 
 collections:
-  - name: "paginas"
-    label: "Páginas"
+  - name: "home"
+    label: "Home"
     files:
-      - file: "index.html"
-        label: "Home"
-        name: "home"
+      - file: "content/home.json"
+        label: "Conteúdo Principal"
+        name: "home_content"
         fields:
-          - {label: "Título", name: "title", widget: "string"}
-          - {label: "Texto", name: "body", widget: "text"}
+          - {label: "Header Título", name: "header.title", widget: "string"}
+          - {label: "Header Subtítulo 1", name: "header.subtitle1", widget: "string"}
+          - {label: "Header Subtítulo 2", name: "header.subtitle2", widget: "string"}
+          - {label: "Sobre Título", name: "about.title", widget: "string"}
+          - {label: "Sobre Texto", name: "about.text", widget: "text"}
+          - {label: "Portfólio Título", name: "portfolio.title", widget: "string"}
+          - {label: "Fotos do Portfólio", name: "portfolio.photos", widget: "list", field: {label: "Foto", name: "photo", widget: "image"}}
+          - {label: "Serviços", name: "services", widget: "list", fields: [
+              {label: "Título", name: "title", widget: "string"},
+              {label: "Texto", name: "text", widget: "text"}
+            ]}
+          - {label: "Contato Título", name: "contact.title", widget: "string"}
+          - {label: "Email", name: "contact.email", widget: "string"}
+          - {label: "Instagram", name: "contact.instagram", widget: "string"}
+          - {label: "WhatsApp", name: "contact.whatsapp", widget: "string"}
+          - {label: "Rodapé", name: "footer.text", widget: "string"}
