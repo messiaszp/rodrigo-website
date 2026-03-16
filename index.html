@@ -202,6 +202,9 @@ fetch('content/home.json')
     // Footer
     document.getElementById('footer-text').textContent = data.footer.text;
   });
+   .catch(error => {
+    console.error("Erro carregando home.json:", error);
+  });
 </script>
 
 </body>
