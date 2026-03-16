@@ -6,116 +6,98 @@
 <title>Rodrigo Jr - Fotografia</title>
 
 <style>
-
 body{
-margin:0;
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-background:#0f0f0f;
-color:white;
-line-height:1.6;
+  margin:0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background:#0f0f0f;
+  color:white;
+  line-height:1.6;
 }
-
 .container{
-width:90%;
-max-width:1200px;
-margin:auto;
+  width:90%;
+  max-width:1200px;
+  margin:auto;
 }
-
 header{
-height:90vh;
-display:flex;
-align-items:center;
-justify-content:center;
-text-align:center;
-background:linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.9));
+  height:90vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  background:linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.9));
 }
-
 header h1{
-font-size:60px;
-letter-spacing:3px;
-margin:0;
+  font-size:60px;
+  letter-spacing:3px;
+  margin:0;
 }
-
 header p{
-opacity:.8;
-margin-top:10px;
+  opacity:.8;
+  margin-top:10px;
 }
-
 nav{
-position:fixed;
-top:0;
-width:100%;
-background:#0f0f0f;
-border-bottom:1px solid #222;
+  position:fixed;
+  top:0;
+  width:100%;
+  background:#0f0f0f;
+  border-bottom:1px solid #222;
 }
-
 nav .container{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:15px 0;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 0;
 }
-
 nav a{
-color:white;
-text-decoration:none;
-margin-left:20px;
-font-size:14px;
-opacity:.8;
+  color:white;
+  text-decoration:none;
+  margin-left:20px;
+  font-size:14px;
+  opacity:.8;
 }
-
 section{
-padding:100px 0;
+  padding:100px 0;
 }
-
 h2{
-font-size:32px;
-margin-bottom:30px;
+  font-size:32px;
+  margin-bottom:30px;
 }
-
 .about{
-max-width:700px;
+  max-width:700px;
 }
-
 .gallery{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-gap:20px;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:20px;
 }
-
 .photo{
-background:#1b1b1b;
-height:350px;
-display:flex;
-align-items:center;
-justify-content:center;
-font-size:14px;
-opacity:.6;
+  background:#1b1b1b;
+  height:350px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:14px;
+  opacity:.6;
 }
-
 .services{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:30px;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:30px;
 }
-
 .card{
-background:#1a1a1a;
-padding:30px;
-border-radius:8px;
+  background:#1a1a1a;
+  padding:30px;
+  border-radius:8px;
 }
-
 .contact{
-text-align:center;
+  text-align:center;
 }
-
 footer{
-border-top:1px solid #222;
-padding:40px;
-text-align:center;
-opacity:.6;
+  border-top:1px solid #222;
+  padding:40px;
+  text-align:center;
+  opacity:.6;
 }
-
 </style>
 </head>
 
@@ -123,114 +105,77 @@ opacity:.6;
 
 <nav>
 <div class="container">
-<div><b>RODRIGO JR</b></div>
-<div>
-<a href="#about">Sobre</a>
-<a href="#portfolio">Portfólio</a>
-<a href="#services">Serviços</a>
-<a href="#contact">Contato</a>
-</div>
+  <div><b>RODRIGO JR</b></div>
+  <div>
+    <a href="#about">Sobre</a>
+    <a href="#portfolio">Portfólio</a>
+    <a href="#services">Serviços</a>
+    <a href="#contact">Contato</a>
+  </div>
 </div>
 </nav>
 
 <header>
 <div>
-<h1>RODRIGO JR</h1>
-<p>Fotografia Profissional</p>
-<p>Esportes • Eventos • Retratos</p>
+  <h1 id="header-title">RODRIGO JR</h1>
+  <p id="header-sub1">Fotografia Profissional</p>
+  <p id="header-sub2">Esportes • Eventos • Retratos</p>
 </div>
 </header>
 
 <section id="about">
 <div class="container">
-<h2>Sobre</h2>
-<p class="about">
-Sou um fotógrafo iniciante movido pela paixão de registrar momentos e transformar cenas simples em memórias marcantes. Minha jornada na fotografia começou com a curiosidade de observar detalhes do cotidiano e evoluiu para um compromisso constante com aprendizado, criatividade e aprimoramento técnico.
-
-Busco capturar imagens autênticas que transmitam emoção e contem histórias, valorizando cada momento registrado. Mesmo no início da minha trajetória profissional, trabalho com dedicação e responsabilidade para entregar resultados que representem a essência de cada cliente e ocasião.
-
-</p>
+  <h2 id="about-title">Sobre</h2>
+  <p class="about" id="about-text">Sou um fotógrafo iniciante movido pela paixão...</p>
 </div>
 </section>
 
 <section id="portfolio">
 <div class="container">
-<h2>Portfólio</h2>
-
-<div class="gallery">
-
-<div class="photo"><img src = "cr7siu.jpg" alt = "Foto 1"></div>
-<div class="photo">Foto 2</div>
-<div class="photo">Foto 3</div>
-<div class="photo">Foto 4</div>
-<div class="photo">Foto 5</div>
-<div class="photo">Foto 6</div>
-<div class="photo">Foto 7</div>
-<div class="photo">Foto 8</div>
-
-</div>
-
+  <h2 id="portfolio-title">Portfólio</h2>
+  <div class="gallery"></div>
 </div>
 </section>
 
 <section id="services">
 <div class="container">
-
-<h2>Serviços</h2>
-
-<div class="services">
-
-<div class="card">
-<h3>Eventos</h3>
-<p>Fotografia profissional para eventos sociais e corporativos.</p>
-</div>
-
-<div class="card">
-<h3>Esportes</h3>
-<p>Fotografia de alta velocidade para esportes e competições.</p>
-</div>
-
-<div class="card">
-<h3>Retratos</h3>
-<p>Ensaios individuais e profissionais.</p>
-</div>
-
-</div>
-
+  <h2 id="services-title">Serviços</h2>
+  <div class="services">
+    <div class="card"><h3></h3><p></p></div>
+    <div class="card"><h3></h3><p></p></div>
+    <div class="card"><h3></h3><p></p></div>
+  </div>
 </div>
 </section>
 
 <section id="contact">
 <div class="container contact">
-
-<h2>Contato</h2>
-
-<p>Email: seuemail@email.com</p>
-<p>Instagram: @seuinstagram</p>
-<p>WhatsApp: (xx) xxxxx‑xxxx</p>
-
+  <h2 id="contact-title">Contato</h2>
+  <p id="contact-email">Email: </p>
+  <p id="contact-instagram">Instagram: </p>
+  <p id="contact-whatsapp">WhatsApp: </p>
 </div>
 </section>
 
 <footer>
-<p>© 2026 Rodrigo Jr Photography</p>
+<p id="footer-text">© 2026 Rodrigo Jr Photography</p>
 </footer>
 
-</body>
-  <script>
+<script>
 fetch('content/home.json')
   .then(r => r.json())
   .then(data => {
     // Header
-    document.querySelector('header h1').textContent = data.header.title;
-    document.querySelector('header p:nth-of-type(1)').textContent = data.header.subtitle1;
-    document.querySelector('header p:nth-of-type(2)').textContent = data.header.subtitle2;
+    document.getElementById('header-title').textContent = data.header.title;
+    document.getElementById('header-sub1').textContent = data.header.subtitle1;
+    document.getElementById('header-sub2').textContent = data.header.subtitle2;
 
-    // Sobre
-    document.querySelector('#about h2').textContent = data.about.title;
-    document.querySelector('#about p').textContent = data.about.text;
+    // About
+    document.getElementById('about-title').textContent = data.about.title;
+    document.getElementById('about-text').textContent = data.about.text;
 
-    // Portfólio
+    // Portfolio
+    document.getElementById('portfolio-title').textContent = data.portfolio.title;
     const gallery = document.querySelector('.gallery');
     gallery.innerHTML = '';
     data.portfolio.photos.forEach(photo => {
@@ -240,22 +185,24 @@ fetch('content/home.json')
       gallery.appendChild(div);
     });
 
-    // Serviços
+    // Services
+    document.getElementById('services-title').textContent = data.services_title;
     const serviceCards = document.querySelectorAll('.services .card');
     data.services.forEach((service, i) => {
       serviceCards[i].querySelector('h3').textContent = service.title;
       serviceCards[i].querySelector('p').textContent = service.text;
     });
 
-    // Contato
-    document.querySelector('#contact h2').textContent = data.contact.title;
-    const contactPs = document.querySelectorAll('#contact p');
-    contactPs[0].textContent = 'Email: ' + data.contact.email;
-    contactPs[1].textContent = 'Instagram: ' + data.contact.instagram;
-    contactPs[2].textContent = 'WhatsApp: ' + data.contact.whatsapp;
+    // Contact
+    document.getElementById('contact-title').textContent = data.contact.title;
+    document.getElementById('contact-email').textContent = 'Email: ' + data.contact.email;
+    document.getElementById('contact-instagram').textContent = 'Instagram: ' + data.contact.instagram;
+    document.getElementById('contact-whatsapp').textContent = 'WhatsApp: ' + data.contact.whatsapp;
 
-    // Rodapé
-    document.querySelector('footer p').textContent = data.footer.text;
+    // Footer
+    document.getElementById('footer-text').textContent = data.footer.text;
   });
 </script>
+
+</body>
 </html>
