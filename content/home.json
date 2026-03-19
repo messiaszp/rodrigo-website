@@ -1,4 +1,20 @@
 {
+  "contact": {
+    "title": "Contato",
+    "email": "seuemail@email.com",
+    "instagram": "@seuinstagram",
+    "whatsapp": "(xx) xxxxx‑xxxx"
+  },
+  "footer.text": ".",
+  "contact.whatsapp": "(88)99380-7866",
+  "contact.instagram": "@messiaszp",
+  "portfolio": {
+    "title": "Portfólio",
+    "photos": [
+      "cr7siu.jpg"
+    ]
+  },
+  "contact.title": ".",
   "header": {
     "title": "RODRIGO JR",
     "subtitle1": "Fotografia Profissional",
@@ -8,24 +24,28 @@
     "title": "Sobre",
     "text": "Sou um fotógrafo iniciante movido pela paixão de registrar momentos e transformar cenas simples em memórias marcantes. Minha jornada na fotografia começou com a curiosidade de observar detalhes do cotidiano e evoluiu para um compromisso constante com aprendizado, criatividade e aprimoramento técnico.\n\nBusco capturar imagens autênticas que transmitam emoção e contem histórias, valorizando cada momento registrado. Mesmo no início da minha trajetória profissional, trabalho com dedicação e responsabilidade para entregar resultados que representem a essência de cada cliente e ocasião."
   },
-  "portfolio": {
-    "title": "Portfólio",
-    "photos": [
-      "cr7siu.jpg"
-    ]
-  },
-  "services": [
-    {"title": "Eventos", "text": "Fotografia profissional para eventos sociais e corporativos."},
-    {"title": "Esportes", "text": "Fotografia de alta velocidade para esportes e competições."},
-    {"title": "Retratos", "text": "Ensaios individuais e profissionais."}
-  ],
-  "contact": {
-    "title": "Contato",
-    "email": "seuemail@email.com",
-    "instagram": "@seuinstagram",
-    "whatsapp": "(xx) xxxxx‑xxxx"
-  },
+  "contact.email": "messiasprincipal007@gmail.com",
+  "about.text": ".",
+  "portfolio.title": ".",
+  "about.title": ".",
+  "header.title": "..",
+  "header.subtitle1": ";",
+  "header.subtitle2": ".",
   "footer": {
     "text": "© 2026 Rodrigo Jr Photography"
-  }
+  },
+  "services": [
+    {
+      "title": "Eventos",
+      "text": "Fotografia profissional para eventos sociais e corporativos."
+    },
+    {
+      "title": "Esportes",
+      "text": "Fotografia de alta velocidade para esportes e competições."
+    },
+    {
+      "title": "Retratos",
+      "text": "Ensaios individuais e profissionais."
+    }
+  ]
 }
