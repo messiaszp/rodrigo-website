@@ -207,6 +207,25 @@ fetch('content/home.json')
     console.error("Erro carregando home.json:", error);
   });
 </script>
+<!-- Netlify Identity para confirmar email e login CMS -->
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      // Se o usuário acabou de confirmar email
+      if (window.location.hash.includes("confirmation_token")) {
+        window.netlifyIdentity.open();
+      }
+
+      // Após login, redireciona para o CMS
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 </body>
 </html>
