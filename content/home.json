@@ -1,4 +1,24 @@
 {
+  "contact": {
+    "title": "Contato",
+    "email": "messiasprincipal007@gmail.com",
+    "instagram": "@messiaszp",
+    "whatsapp": "(88) 99380-7866"
+  },
+  "footer.text": ".",
+  "contact.whatsapp": "(88)99380-7866",
+  "contact.instagram": "@messiaszp",
+  "portfolio.photos": [
+    "/images/uploads/218623.jpg"
+  ],
+  "portfolio": {
+    "title": "Portfólio",
+    "photos": [
+      "/images/uploads/218623.jpg",
+      "/images/uploads/1159855.jpg"
+    ]
+  },
+  "contact.title": ".",
   "header": {
     "title": "RODRIGO JR",
     "subtitle1": "Fotografia Profissional",
@@ -6,15 +26,17 @@
   },
   "about": {
     "title": "Sobre",
-    "text": "Sou um fotógrafo iniciante movido pela paixão de registrar momentos e transformar cenas simples em memórias marcantes..."
+    "text": "Sou um fotógrafo iniciante movido pela paixão de registrar momentos e transformar cenas simples em memórias marcantes. Minha jornada na fotografia começou com a curiosidade de observar detalhes do cotidiano e evoluiu para um compromisso constante com aprendizado, criatividade e aprimoramento técnico.\n\nBusco capturar imagens autênticas que transmitam emoção e contem histórias, valorizando cada momento registrado. Mesmo no início da minha trajetória profissional, trabalho com dedicação e responsabilidade para entregar resultados que representem a essência de cada cliente e ocasião."
   },
-  "portfolio": {
-    "title": "Portfólio",
-    "photos": [
-      {
-        "photo": "/images/uploads/218623.jpg"
-      }
-    ]
+  "contact.email": "messiasprincipal007@gmail.com",
+  "about.text": ".",
+  "portfolio.title": ".",
+  "about.title": ".",
+  "header.title": "..",
+  "header.subtitle1": ";",
+  "header.subtitle2": ".",
+  "footer": {
+    "text": "© 2026 Rodrigo Jr Photography"
   },
   "services": [
     {
@@ -29,14 +51,5 @@
       "title": "Eventos",
       "text": "Fotografia para eventos."
     }
-  ],
-  "contact": {
-    "title": "Contato",
-    "email": "messiasprincipal007@gmail.com",
-    "instagram": "@messiaszp",
-    "whatsapp": "(88) 99380-7866"
-  },
-  "footer": {
-    "text": "© 2026 Rodrigo Jr Photography"
-  }
+  ]
 }
