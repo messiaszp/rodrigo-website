@@ -182,7 +182,7 @@ fetch('content/home.json')
       data.portfolio.photos.forEach(photo => {
         const div = document.createElement('div');
         div.className = 'photo';
-        div.innerHTML = `<img src="${photo.photo}" alt="Foto">`;
+        div.innerHTML = `<img src="${photo.photo}" alt="Foto" style="width:100%; height:100%; object-fit:cover;">`;
         gallery.appendChild(div);
       });
     }
