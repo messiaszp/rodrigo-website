@@ -177,21 +177,23 @@ fetch('content/home.json')
     // Portfolio
     document.getElementById('portfolio-title').textContent = data.portfolio.title;
     const gallery = document.querySelector('.gallery');
-    if(gallery){
-    gallery.innerHTML = '';
-    data.portfolio.photos.forEach(photo => {
-      const div = document.createElement('div');
-      div.className = 'photo';
-      div.innerHTML = `<img src="images/${photo}" alt="Foto">`;
-      gallery.appendChild(div);
-    });
+    if (gallery) {
+      gallery.innerHTML = '';
+      data.portfolio.photos.forEach(photo => {
+        const div = document.createElement('div');
+        div.className = 'photo';
+        div.innerHTML = `<img src="${photo.photo}" alt="Foto">`;
+        gallery.appendChild(div);
+      });
     }
+
     // Services
-    document.getElementById('services-title').textContent = data.services_title;
     const serviceCards = document.querySelectorAll('.services .card');
     data.services.forEach((service, i) => {
-      serviceCards[i].querySelector('h3').textContent = service.title;
-      serviceCards[i].querySelector('p').textContent = service.text;
+      if (serviceCards[i]) {
+        serviceCards[i].querySelector('h3').textContent = service.title;
+        serviceCards[i].querySelector('p').textContent = service.text;
+      }
     });
 
     // Contact
@@ -202,8 +204,8 @@ fetch('content/home.json')
 
     // Footer
     document.getElementById('footer-text').textContent = data.footer.text;
-  });
-   .catch(error => {
+  })
+  .catch(error => {
     console.error("Erro carregando home.json:", error);
   });
 </script>
