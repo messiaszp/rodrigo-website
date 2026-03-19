@@ -8,6 +8,9 @@
   "footer.text": ".",
   "contact.whatsapp": "(88)99380-7866",
   "contact.instagram": "@messiaszp",
+  "portfolio.photos": [
+    "/images/uploads/218623.jpg"
+  ],
   "portfolio": {
     "title": "Portfólio",
     "photos": [
@@ -36,16 +39,16 @@
   },
   "services": [
     {
-      "title": "Eventos",
-      "text": "Fotografia profissional para eventos sociais e corporativos."
-    },
-    {
       "title": "Esportes",
       "text": "Fotografia de alta velocidade para esportes e competições."
     },
     {
       "title": "Retratos",
       "text": "Ensaios individuais e profissionais."
+    },
+    {
+      "title": "Eventos",
+      "text": "Fotografia para eventos."
     }
   ]
 }
